@@ -1,0 +1,17 @@
+# Include base requirements
+-r base.txt
+
+# Web Interface (Production)
+streamlit>=1.29.0
+
+# Essential Visualization
+plotly>=5.17.0
+
+# Production Monitoring
+psutil>=5.9.0
+
+# Security
+cryptography>=41.0.0
+
+# Performance
+gunicorn>=21.0.0
